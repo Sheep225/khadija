@@ -1,0 +1,236 @@
+/*
+Theme Name: Khadija's Theme
+ 
+Theme URI: 
+http://khadija-ch.myds.me/reiseblog
+
+Description: Mein eigenes WordPress-Theme
+
+Version: 1.0
+
+Author: Daniel Hertig
+
+Author URI: 
+http://khadija-ch.myds.me/reiseblog
+
+*/
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28343b+0,828c95+20,b5bdc8+36 */
+background: #28343b; /* Old browsers */
+background: -moz-linear-gradient(top,  #28343b 0%, #828c95 20%, #b5bdc8 36%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #28343b 0%,#828c95 20%,#b5bdc8 36%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #28343b 0%,#828c95 20%,#b5bdc8 36%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8',GradientType=0 ); /* IE6-9 */
+ 
+ color: #333;
+ margin: 0; padding: 0;
+ font: 100%/1.5 verdana, sans-serif;
+ text-align: center; /* Zentriert den Inhalt für ältere Browser */
+}
+
+#container {
+ margin: 0 auto; text-align: left;
+ width: 1100px;
+ padding: 1px; border: 1px solid #474B52;
+ background: #fff;
+ position: relative;
+}
+
+h1#kopfbereich {
+ margin: 0; padding: 0; border-bottom: 1px solid #fff;
+ background: #31363E url(img/kopfbereich.gif) repeat-x;
+ color: #fff;
+}
+h1#kopfbereich a {
+ display: block; width: 800px; height: 132px;
+ background: url(img/header-logo.gif) no-repeat;
+ text-indent: -9999px;
+}
+#hauptnavi {
+ font: bold 14px verdana, sans-serif;
+ letter-spacing: 2px;
+ background: #BBCC3B url(img/hauptnavi.gif) repeat-x; color: #fff;
+}
+#hauptnavi ul {
+ padding: 0 25px; margin: 0;
+ list-style: none;
+ height: 38px; line-height: 38px;
+ background: url(img/hauptnavi.gif) no-repeat;
+}
+#hauptnavi li {
+ float: left;
+}
+#hauptnavi li a {
+ color: #fff;
+ text-decoration: none;
+ margin-right: 17px;
+}
+#hauptnavi li a:hover, #hauptnavi .aktiv, #hauptnavi .current_page_item a, .current_page_parent a {
+ text-decoration: underline;
+}
+#mittelbereich {
+ padding: 25px;
+ font-size: 14px;
+ clear: left; 
+ background: #fff;
+}
+#mittelbereich h2 {
+ margin: 0;
+ font: 20px verdana, sans-serif;
+ letter-spacing: 1px;
+ color: #444; border-bottom: 1px dotted #ab3;
+}
+#mittelbereich p, #mittelbereich ul, #mittelbereich ol, #mittelebereich dl, #mittelbereich form 
+{
+ margin-top: 7px; margin-bottom: 17px;
+}
+#mittelbereich a {
+ color: #666; text-decoration: none;
+}
+#mittelbereich a:hover {
+ color: #333; text-decoration: underline;
+}
+#mittelbereich .clearer {
+ clear: both;
+}  
+#sidebar {
+ float: left; width: 220px;
+}
+#sidebar ul {
+ list-style: none; padding-left: 0; margin-left: 0;
+}
+#sidebar li {
+ margin-bottom: 1px; padding: 2px 0 2px 2px; border-bottom: 1px solid #ccc;
+}
+/* Der Inhaltsbereich */
+…
+#inhalt .beitrags-info2 {
+ background: #fff; margin: 25px 0; border: 1px solid #bbc0a2;
+}
+#inhalt .beitrags-info2 dl {
+ margin: 1px; padding: 12px; background: #dcdecf;
+}
+#inhalt .beitrags-info2 dl a {
+ border-bottom: 1px solid #bbc0a2
+}
+#inhalt .beitrags-info2 dl dt {
+ float: left;
+ width: 88px; margin: 0;
+ font-weight: normal; clear: left;
+}
+#inhalt .beitrags-info2 dl dd {
+ margin: 0 0 2px 92px;
+}
+#inhalt .feedback {
+    text-align: right;
+    margin: 1px 0 45px 0;
+    border-bottom: 1px dotted #ab3;
+    text-transform: uppercase;
+}
+#inhalt {
+ float: right; width: 800px;
+}
+#inhalt h3 {
+ font: 20px verdana, sans-serif; margin-bottom: -4px;
+}
+#inhalt h4 {
+ font: bold 16px verdana, arial, sans-serif; margin-bottom: -3px;
+}
+#inhalt h5 {
+ font: bold 13px verdana, arial, sans-serif; margin-bottom: -3px;
+}
+
+/* Bilder */
+.aligncenter, .aligncenter {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+.alignleft {
+ float: left;
+ margin: 2px 10px 5px 0;
+}
+.alignright {
+ float: right;
+ margin: 2px 0 5px 10px;
+}
+ 
+.wp-caption {
+ text-align: center;
+ background: #dcdecf;
+ border: 1px solid #bbc0a2;
+ padding: 11px 9px 9px 9px;
+ margin-top: 3px; margin-bottom: 10px;
+}
+.wp-caption img {
+ margin: 0; padding: 0; border: 1px solid #bbc0a2;
+}
+.wp-caption a, .wp-caption a:hover, .galerie a, .galerie a:hover {
+ border: none;
+}
+.wp-caption p.wp-caption-text {
+ font-size: 11px; line-height: 17px;
+ margin: 0; padding-top: 5px;
+}
+ 
+.galerie {
+ margin-top: 12px;
+}
+.attachment-medium, .attachment-thumbnail {
+ padding: 14px;
+ background: #dcdecf;
+ border: 1px solid #bbc0a2;
+}
+.attachment-thumbnail {
+ padding: 7px;
+}
+/* Der Fußbereich */
+...
+#footer a {
+    color: #fff; text-decoration: none; border-bottom: 1px solid #b0b693;
+}
+#footer a:hover {
+    color: #bbc0a2; text-decoration: none; border-bottom: 1px solid #a8c02e;
+}
+#footer {
+ background: #41454b url(img/footer.gif) repeat-x bottom center;
+ color: #fff; padding: 25px 25px 10px 25px;
+ font-size: 11px;
+}
+#footer h2 {
+ margin-top: 0;
+ font: bold 16px verdana, arial, sans-serif;
+ text-transform: uppercase;
+ border-bottom: 1px dotted #bbb;
+}
+#footer ul, #footer ol {
+ list-style: none; margin-left: 0; padding-left: 0;
+}
+/* Allgemeingültige Angaben */
+… 
+.bild-links {
+ float: left;
+ margin: 2px 10px 5px 0;
+}
+.bild-rechts {
+ float: right; margin: 2px 0 5px 10px;
+}
+.bild-zentriert {
+ display: block;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+.bild-mittig {
+ vertical-align: middle;
+}
+dt {
+ font-weight: bold;
+}
+dd {
+ margin: 1px 0 .5em 0;
+}
+.center {
+ text-align: center;
+}
